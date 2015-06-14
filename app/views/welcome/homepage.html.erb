@@ -826,7 +826,7 @@
  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-	
+	<script src="assets/froogaloop.min.js"></script>
  
  <!--<script src="assets/agency.js"></script>-->
 	<script src="assets/jquery.js"></script>
@@ -866,7 +866,25 @@
         
     });
 
-   
+    $("#carousel-photo, #carousel-phys").hover(function(e){
+        $(".carousel-indicators").fadeIn(500);
+
+    });
+
+    var overiFrame = false;
+
+    $('#carousel-phys iframe').hover( function() {
+        overiFrame = true;
+    }, function() {
+        overiFrame = false;
+    });
+
+    $(window).blur( function() {
+        if(overiFrame){
+            $('#myCarousel').carousel('pause');
+        }
+
+    });
 	
 	$(".right").click(function(e){
 		e.preventDefault();
