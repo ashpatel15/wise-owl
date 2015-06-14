@@ -19,6 +19,9 @@ gem 'rails_12factor', group: :production
 
 gem 'foundation-rails', '5.4.3.1'
 
+gem 'memcachier'
+ 
+gem 'dalli'
 # Use SCSS for stylesheets
 group :assets do
 	#gem 'sass-rails', '~> 5.0'
