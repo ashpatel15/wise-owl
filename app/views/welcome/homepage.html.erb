@@ -682,12 +682,12 @@
 
 
 							    <div class="item">
-							      <iframe  width="100%" height="300" src="https://player.vimeo.com/video/60834282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							      <iframe id="player1"  width="100%" height="300" src="https://player.vimeo.com/video/60834282?api=1&player_id=player2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 							      
 							    </div>
 
 								<div class="item">
-							      <iframe width="100%" height="300" src="https://player.vimeo.com/video/59175550" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							      <iframe  id="player2" width="100%" height="300" src="https://player.vimeo.com/video/59175550?api=1&player_id=player2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 							    </div>
 							   
 
@@ -826,8 +826,6 @@
  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-	<script src="assets/froogaloop.min.js"></script>
- 
  <!--<script src="assets/agency.js"></script>-->
 	<script src="assets/jquery.js"></script>
       <!-- Bootstrap Core JavaScript -->
@@ -865,6 +863,9 @@
         }
         
     });
+
+    
+
 
     $("#carousel-photo, #carousel-phys").hover(function(e){
         $(".carousel-indicators").fadeIn(500);
