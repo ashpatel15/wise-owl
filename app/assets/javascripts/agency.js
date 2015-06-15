@@ -1,4 +1,4 @@
-/*!
+/*
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -17,14 +17,23 @@ $(function() {
 
 // Highlight the top nav as scrolling occurs
 /*$('body').scrollspy({
-    target: '.navbar-collapse'
+    target: '.navbar-fixed-top'
 });*/
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
+	// Closes the Responsive Menu on Menu Item Click
+	$('.navbar-collapse ul li a').click(function() {
+	    $('.navbar-toggle:visible').click();
+	    console.log("asdasd");
 
+	});
+
+
+
+	$(".navbar-toggle").click(function(e) {
+	        e.preventDefault();
+	        $("#navbar-collapse").toggleClass("active");
+
+	    });
 
 
   
