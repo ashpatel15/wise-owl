@@ -270,7 +270,7 @@ figure.effect-bubba:hover p {
     transform: translate3d(0,0,0);
 }
 
-@media (max-width: 1201px) {
+@media (min-width: 1201px) {
 	#works {padding-top: 6.6em;}
 }
 @media (max-width: 1200px) {
