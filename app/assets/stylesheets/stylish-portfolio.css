@@ -25,6 +25,10 @@ section{
     padding: 50px 0;
 }
 
+
+.gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
+.gototop i{line-height: 0.5em;}
+
 .btn-circle {
     width: 70px;
     height: 70px;
