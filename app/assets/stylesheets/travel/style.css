@@ -328,8 +328,3 @@ figure.effect-bubba:hover p {
 	figure.effect-chico figcaption {padding: 1.5em;}
 	.footer{margin-top: 2em;padding-bottom: 2em;}
 }
-
-.pic-hidden a{
-    visibility: hidden;
-    display: none;
-}
