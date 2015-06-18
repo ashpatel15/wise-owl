@@ -180,6 +180,8 @@ ol {
 }
 
 ol > li {
+    padding-bottom: 10px;
+    padding-left: 10px;
     list-style: none;
     position: relative;
 }
