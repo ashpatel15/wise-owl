@@ -159,7 +159,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .carousel-indicators{bottom: 0;}
 
 /*works*/
-#works{padding-top:7.6em;}
+#works{padding-top:5.6em;}
 #works figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #works figcaption a:hover{text-decoration: none;padding: 0 3em;}
 
@@ -292,9 +292,7 @@ figure.effect-bubba:hover p {
     transform: translate3d(0,0,0);
 }
 
-@media (min-width: 1201px) {
-	#works {padding-top: 6.6em;}
-}
+
 @media (max-width: 1200px) {
 	body{font:300 13px/13px; 
      font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -334,7 +332,7 @@ figure.effect-bubba:hover p {
 	h2.text-center{text-align: left;font-size: 1.7em;}
 	h4 {font: 300 1.2em  "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;}
 	#partners h2{padding: 0 1em;} 
-	#works {padding-top: 4em;}
+	#works {padding-top: 3em;}
 
 	.partners{display: block;float: left;}
 	.partners img{width: 120px;}
