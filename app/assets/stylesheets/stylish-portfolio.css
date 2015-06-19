@@ -106,11 +106,7 @@ section{
         transform: scale(1);
     }
 }
-.vertical {
-  position: relative;
-  top: 50%;
-  transform: translateY(70%); 
-}
+
 .text-vertical-center-header {
    /* margin:5%;*/
    padding-bottom: 30px;
