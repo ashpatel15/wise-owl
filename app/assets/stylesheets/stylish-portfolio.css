@@ -25,6 +25,9 @@ section{
     padding: 50px 0;
 }
 
+.highlight-info{ background:url(../assets/bg2.jpg) center fixed; background-size: cover; color:#fff;}
+.highlight-info .overlay{background: rgba(33,171,202,0.5);}
+.highlight-info h4{color: #fff;margin:0.5em 0 0 0;}
 
 .gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
 .gototop i{line-height: 0.5em;}
