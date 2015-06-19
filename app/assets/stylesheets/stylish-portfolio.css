@@ -106,7 +106,11 @@ section{
         transform: scale(1);
     }
 }
-
+.vertical {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
 .text-vertical-center-header {
    /* margin:5%;*/
    padding-bottom: 30px;
