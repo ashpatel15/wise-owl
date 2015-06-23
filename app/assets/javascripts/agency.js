@@ -21,7 +21,7 @@ $(document).ready(function() {
 });*/
 
 	// Closes the Responsive Menu on Menu Item Click
-	$('.navbar-collapse ul li a').click(function() {
+	/*$('.navbar-collapse ul li a').click(function() {
 	    $('.navbar-toggle:visible').click();
 	    console.log("asdasd");
 
@@ -33,13 +33,13 @@ $(document).ready(function() {
 	        e.preventDefault();
 	        $("#navbar-collapse").toggleClass("active");
 
-	    });
+	    });*/
 
 
   
     // Closes the sidebar menu
 
-    /*$("#menu-close").click(function(e) {
+    $("#menu-close").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
@@ -48,7 +48,7 @@ $(document).ready(function() {
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
-    });*/
+    });
 
     //Opens the modals
     $(".portfolio-link").click(function(e) {
