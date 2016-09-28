@@ -50,6 +50,9 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .navbar-default .navbar-brand.active {
     color: #FF5714;
 }
+.flex{
+    display: flex;
+}
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
