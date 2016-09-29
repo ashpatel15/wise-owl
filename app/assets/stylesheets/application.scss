@@ -10,8 +10,6 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require font-awesome
- *= require font-awesome.min
  *= require bootstrap
  *= require stylish-portfolio
  
@@ -21,3 +19,6 @@
  *= require travel/set
  
  */
+
+@import "font-awesome-sprockets";
+@import "font-awesome";

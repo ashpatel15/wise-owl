@@ -5,14 +5,10 @@ ruby '2.2.3'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 group :production do
-	gem 'pg'
 end
 
 
-group :development do
-
-	gem 'sqlite3'
- 
+group :development do 
 end
 
 gem 'rails_12factor', group: :production
@@ -20,8 +16,12 @@ gem 'rails_12factor', group: :production
 gem 'foundation-rails', '5.4.3.1'
 
 gem 'memcachier'
- 
+
+gem 'font-awesome-sass'
+
 gem 'dalli'
+
+gem 'sass-rails'
 # Use SCSS for stylesheets
 group :assets do
 	#gem 'sass-rails', '~> 5.0'
