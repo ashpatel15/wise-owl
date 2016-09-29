@@ -9,14 +9,14 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
- *
+ *= require_self	
  *= require bootstrap
  *= require stylish-portfolio
-
+ *= require font-awesome.min.css.scss
  *= require travel/blueimp-gallery.min
  *= require travel/animate
  *= require travel/set
- *= require_self	 
+ 
  */
 
 @import "font-awesome-sprockets";
