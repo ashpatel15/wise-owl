@@ -12,5 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require modernizr.custom
 //= require turbolinks
-//= require_tree .
+//= require wow.min
+//= require classie
+//= require cbpAnimatedHeader.min
+//= require bootstrap.min
+//= require agency
+
+
+//= require travel/respond
+//= require travel/jquery.blueimp-gallery.min
+//= require travel/script

@@ -1,3 +1,5 @@
+ //=require wow.min
+ //=require travel/touchSwipe.min
  jQuery(document).ready(function($) {
  
     $(".scroll a, .navbar-brand, .gototop").click(function(event){   
