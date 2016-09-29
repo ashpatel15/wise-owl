@@ -19,7 +19,7 @@ gem 'memcachier'
 
 gem 'font-awesome-sass'
 
-gem "font-awesome-rails"
+
 
 gem 'dalli'
 
