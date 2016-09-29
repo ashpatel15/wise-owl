@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require font-awesome
+ *= require font-awesome.min
  *= require bootstrap
  *= require stylish-portfolio
  
