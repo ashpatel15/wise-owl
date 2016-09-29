@@ -1,4 +1,4 @@
-/.bundlegit s
+/.bundlegit
 /log/*
 /tmp/*
 !/log/.keep
