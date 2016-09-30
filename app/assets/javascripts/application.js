@@ -10,14 +10,17 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
+//= require jquery3
 //= require jquery_ujs
+//= require jquery-ui
+//= require bootstrap.min
+//= require jquery.easing
 //= require modernizr.custom
 //= require turbolinks
 //= require wow.min
-//= require classie
-//= require cbpAnimatedHeader.min
-//= require bootstrap.min
+
+
+
 //= require agency
 
 
