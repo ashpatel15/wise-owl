@@ -1,0 +1,13 @@
+<%= link_to href, id: id, class: 'portfolio-link', data: {toggle: 'modal', no_turbolink: true} do %> 
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="grid wow zoomIn">
+            <figure class="effect-bubba">
+                 <%= image_tag(img) %>
+                <figcaption>
+                    <h2><%= title %> <span><%= span %></span></h2>
+                    <p><%= sub %> </p>
+                </figcaption>           
+            </figure>
+        </div>
+    </div>
+<% end %>
