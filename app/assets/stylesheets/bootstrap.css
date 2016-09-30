@@ -166,6 +166,8 @@ abbr[title]:after {
     content: " (" attr(title) ")"}
 a[href^="javascript:"]:after, a[href^="#"]:after {
     content: ""}
+
+
 blockquote, pre {
     border: 1px solid #999;
     page-break-inside: avoid;

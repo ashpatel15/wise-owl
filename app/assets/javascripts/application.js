@@ -13,14 +13,11 @@
 //= require jquery3
 //= require jquery_ujs
 //= require jquery-ui
-//= require bootstrap.min
+//= require bootstrap
 //= require jquery.easing
 //= require modernizr.custom
 //= require turbolinks
 //= require wow.min
-
-
-
 //= require agency
 
 
